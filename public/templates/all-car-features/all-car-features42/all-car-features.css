@@ -1,0 +1,128 @@
+#all_car_features_v1 {
+    display: block;
+    font-size: 16px;
+    font-family: poppinssemibold;
+    clear: left;
+}
+
+#all_car_features_v1 .all_car_features {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#all_car_features_v1 .car_feature_row {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#all_car_features_v1 .car_feature_list {
+    width: 100%;
+    float: left;
+    display: inline-block;
+    position: relative;
+    height: auto;
+    vertical-align: top;
+    max-width: 485px;
+}
+
+#all_car_features_v1 .car_feature_heading {
+    position: relative;
+    display: inline-block;
+    padding: 40px;
+    padding-bottom: 20px;
+}
+
+#all_car_features_v1 .car_feature_heading h2 {
+    font-size: 34px;
+    font-family: poppinsbold;
+    font-weight: normal;
+    line-height: inherit;
+}
+
+#all_car_features_v1 .list-ticks {
+    list-style: none;
+    line-height: 30px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+#all_car_features_v1 .list-ticks li:before {
+    position: absolute;
+    top: 5px;
+    left: -30px;
+    line-height: 1;
+    font-size: 20px;
+    content: "\f00c";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 20px;
+}
+
+#all_car_features_v1 .list-ticks li {
+    position: relative;
+}
+
+#all_car_features_v1 .ticks-disclaimer {
+    margin-top: 15px;
+    padding-left: 40px;
+}
+
+#all_car_features_v1 .acf_v1_left {
+    position: relative;
+    float: left;
+    width: 100%;
+    -webkit-transition: width .3s;
+    transition: width .3s;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+}
+
+#all_car_features_v1 .acf_v1_right {
+    position: relative;
+    float: right;
+    width: 100%;
+    -webkit-transition: width .3s;
+    transition: width .3s;
+    box-sizing: border-box;
+}
+
+#all_car_features_v1 .img-responsive {
+    width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+    #all_car_features_v1 h2 {
+        font-size: 16px !Important
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #all_car_features_v1 .acf_v1_left {
+        width: 40%;
+    }
+    #all_car_features_v1 .acf_v1_right {
+        width: 60%;
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #all_car_features_v1 .acf_v1_left {
+        width: 35%;
+    }
+    #all_car_features_v1 .acf_v1_right {
+        width: 65%;
+    }
+    #all_car_features_v1 .acf_v1_right>img {
+        max-width: 650px;
+    }
+}

@@ -1,0 +1,266 @@
+#financespecialist_v2 {
+    display: block
+}
+
+#financespecialist_v2 .service_section {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: top
+}
+
+#financespecialist_v2 .services_boxs {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    font-size: 0
+}
+
+#financespecialist_v2 .col-left {
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    vertical-align: top
+}
+
+#financespecialist_v2 .col-right {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    min-height: 628px
+}
+
+#financespecialist_v2 .service-box {
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    min-height: 628px;
+}
+
+#financespecialist_v2 .service-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    min-height: 100px;
+    text-align: center;
+    -webkit-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+    padding: 15px 15px 50px
+}
+
+#financespecialist_v2 .title-strip {
+    text-align: center;
+    min-height: inherit
+}
+
+#financespecialist_v2 .service-title h2 {
+    font-size: 28px;
+    font-family: poppinsbold;
+    z-index: 2;
+    position: relative;
+    padding-bottom: 20px;
+    text-transform: capitalize
+}
+
+#financespecialist_v2 .service-title p {
+    font-size: 15px;
+    line-height: 22px;
+    font-family: poppinsregular
+}
+
+#financespecialist_v2 .service-box2 {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    min-height: 329px;
+    background-size: cover;
+}
+
+#financespecialist_v2 .service-box3 {
+    position: relative;
+    left: 0;
+    top: 0;
+    min-height: 298px;
+    z-index: 2;
+    width: 100%;
+    background-size: cover;
+}
+
+#financespecialist_v2 .btn.btn-outline {
+    text-transform: uppercase;
+    letter-spacing: 0;
+    box-shadow: none;
+    border: none;
+    font-size: 14px;
+    line-height: 31px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+    min-width: 150px;
+    padding: 6px 10px;
+    border-color: transparent;
+    font-family: poppinsbold;
+    min-height: 43px;
+    border-radius: 4px;
+    margin-top: 25px
+}
+
+#financespecialist_v2 .service-box2 img,
+#financespecialist_v2 .service-box3 img,
+#financespecialist_v2 .service-box4 img {
+    height: 100%;
+    object-fit: cover
+}
+
+#financespecialist_v2 .service-box img {
+    object-fit: cover;
+    height: 100%
+}
+
+#financespecialist_v2 .service-box3 .service-title {
+    min-height: 120px
+}
+
+#financespecialist_v2 .service-box4 .service-title {
+    min-height: 120px
+}
+
+#financespecialist_v2 .service-box a:before,
+#financespecialist_v2 .service-box2 a:before,
+#financespecialist_v2 .service-box3 a:before,
+#financespecialist_v2 .service-box4 a:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+#financespecialist_v2 .service-box a,
+#financespecialist_v2 .service-box2 a,
+#financespecialist_v2 .service-box3 a,
+#financespecialist_v2 .service-box4 a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    -webkit-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+#financespecialist_v2 .service-box a:hover:before,
+#financespecialist_v2 .service-box2 a:hover:before,
+#financespecialist_v2 .service-box3 a:hover:before,
+#financespecialist_v2 .service-box4 a:hover:before {
+    -webkit-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+#financespecialist_v2 .service-box a img,
+#financespecialist_v2 .service-box2 a img,
+#financespecialist_v2 .service-box3 a img,
+#financespecialist_v2 .service-box4 a img {
+    opacity: .5;
+    -webkit-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+#financespecialist_v2 .service-box a:hover img,
+#financespecialist_v2 .service-box2 a:hover img,
+#financespecialist_v2 .service-box3 a:hover img,
+#financespecialist_v2 .service-box4 a:hover img {
+    opacity: 1;
+    -webkit-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+#financespecialist_v2 .service-box a:hover .service-title h2:before,
+#financespecialist_v2 .service-box2 a:hover .service-title h2:before,
+#financespecialist_v2 .service-box3 a:hover .service-title h2:before,
+#financespecialist_v2 .service-box4 a:hover .service-title h2:before {
+    -webkit-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+#financespecialist_v2 .service-box a:hover .service-title,
+#financespecialist_v2 .service-box2 a:hover .service-title,
+#financespecialist_v2 .service-box3 a:hover .service-title,
+#financespecialist_v2 .service-box4 a:hover .service-title {
+    transform: translate(0px, -10px);
+    -webkit-transform: translate(0px, -10px);
+    -webkit-transition: all .5s .25s linear;
+    -o-transition: all .5s .25s linear;
+    transition: all .5s .25s linear
+}
+
+#financespecialist_v2 .video_banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#financespecialist_v2 .video2 {
+    vertical-align: top;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    #financespecialist_v2 .service-box,
+    #financespecialist_v2 .service-box2,
+    #financespecialist_v2 .service-box3 {
+        height: 300px;
+        min-height: 300px
+    }
+    #financespecialist_v2 .service-box a,
+    #financespecialist_v2 .service-box2 a {
+        height: 300px;
+        min-height: 300px
+    }
+    #financespecialist_v2 .service-box3 a {
+        height: auto;
+        min-height: auto
+    }
+    #financespecialist_v2 .service-title {
+        min-height: 100px !important
+    }
+    #financespecialist_v2 .service-box {
+        border-bottom: none
+    }
+    #financespecialist_v2 .col-right {
+        min-height: auto
+    }
+}

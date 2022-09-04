@@ -1,0 +1,772 @@
+#footer_v8 {
+    display: block;
+}
+
+#footer_v8 .footermain {
+    font-family: 'poppinslight';
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+/********* Footer Subscribe Css *********/
+
+#footer_v8 .subscribe-section {
+    width: 100%;
+    z-index: 2;
+    position: relative;
+    margin-top: 8px;
+}
+
+#footer_v8 .used_car_section ul li img {
+    display: none
+}
+
+#footer_v8 .contactform-footer {
+    position: relative;
+    width: 100%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+#footer_v8 .subscribe-now {
+    font-family: poppinsregular;
+    font-size: 12px;
+    line-height: 26px;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width:767px) {
+    #footer_v8 .subscribe-now {
+        text-align: right;
+    }
+    #footer_v8 .subscribe-section {
+        margin-top: 15px;
+    }
+}
+
+#footer_v8 .stock_update_button {
+    font-family: poppinsbold;
+    display: block;
+    padding: 9px 10px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    min-width: 150px;
+    text-align: center;
+}
+
+@media only screen and (min-width:480px) {
+    #footer_v8 .stock_update_button {
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width:560px) {
+    #footer_v8 .subscribe-now {
+        font-size: 16px;
+    }
+}
+
+/********* Footer Used Car Section *********/
+
+#footer_v8 .used_car_section {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    padding: 30px 0px;
+    border-top: 0;
+    margin-top: 8px;
+}
+
+@media only screen and (min-width:767px) {
+    #footer_v8 .used_car_section {
+        margin-top: 15px;
+    }
+}
+
+#footer_v8 .used-cartitle {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width:767px) {
+    #footer_v8 .used-cartitle {
+        margin-top: 0px;
+    }
+}
+
+#footer_v8 .used-cartitle h2 {
+    font-family: poppinsregular;
+    position: relative;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#footer_v8 .used-cartitle h2 strong {
+    font-family: poppinsbold;
+}
+
+@media only screen and (max-width:600px) {
+    #footer_v8 .used-cartitle h2 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    #footer_v8 .used-cartitle h2 span {
+        display: block;
+        font-size: 15px;
+    }
+    #footer_v8 .spanin {
+        display: none !important;
+    }
+}
+
+#footer_v8 .used_car_list {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#footer_v8 .used_car_list li {
+    display: inline-block;
+    width: 98%;
+    float: left;
+    margin-right: 2%;
+}
+
+@media only screen and (min-width:350px) {
+    #footer_v8 .used_car_list li {
+        width: 48%;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    #footer_v8 .used_car_list li {
+        width: 31%;
+    }
+}
+
+@media only screen and (min-width:767px) {
+    #footer_v8 .used_car_list li {
+        width: 23%;
+    }
+}
+
+@media only screen and (min-width:1150px) {
+    #footer_v8 .used_car_list li {
+        width: 18%;
+    }
+}
+
+#footer_v8 .used_car_list li a {
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: poppinsregular;
+}
+
+/********* Footer Sitemap Section *********/
+
+#footer_v8 .sitemap_section {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin-top: 8px;
+}
+
+@media only screen and (min-width:767px) {
+    #footer_v8 .sitemap_section {
+        padding-top: 60px;
+        padding-bottom: 10px;
+        margin-top: 15px;
+    }
+}
+
+#footer_v8 .sitemap_section_col3 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#footer_v8 .sitemap_section_col3:last {
+    margin-bottom: 0px;
+}
+
+@media only screen and (min-width:1023px) {
+    #footer_v8 .sitemap_section_col3 {
+        width: 33.33%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/********* Footer Quick Link Section *********/
+
+#footer_v8 .quick-links-group {
+    text-align: left;
+    line-height: 26px;
+    font-size: 14px;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    display: inline-block;
+}
+
+#footer_v8 .quick-links-group li {
+    display: inline-block;
+    text-align: left;
+    display: inline-block;
+    width: 49%;
+    position: relative;
+    vertical-align: top;
+}
+
+#footer_v8 .quick-links-group li:before {
+    display: inline-block;
+    content: "\f105";
+    font: normal normal normal 18px/1 FontAwesome;
+    margin-right: 10px;
+    position: absolute;
+    top: 7px;
+}
+
+#footer_v8 .quick-links-group li a {
+    font-family: poppinsregular;
+    padding: 4px 20px;
+    text-decoration: none;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+#footer_v8 .quick-links-group li:last-child a {
+    padding-right: 0;
+}
+
+/********* Footer Parter Logo Section *********/
+
+#footer_v8 .partner_logo {
+    position: relative;
+    width: 100%;
+    display: block;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+#footer_v8 .ft-brand {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: baseline;
+}
+
+#footer_v8 .ft-brand li {
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0%;
+    width: 50%;
+    height: auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width:500px) {
+    #footer_v8 .ft-brand li {
+        width: 33%;
+    }
+}
+
+/*@media only screen and (min-width:767px){ #footer_v8 .ft-brand li{display:inline-block; vertical-align:middle; margin: 0.5% 1%; flex: 1; }}*/
+
+#footer_v8 .ft-brand li img {
+    max-width: 100px;
+    max-height: 75px;
+    vertical-align: bottom;
+    margin-top: 30px;
+}
+
+/********* Footer Powered By Section *********/
+
+#footer_v8 .copyright-section {
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+#footer_v8 .powerdby {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+#footer_v8 .powerdby .cardealer img {
+    max-width: 45px;
+    width: 45px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+}
+
+#footer_v8 .powerdby .cardealer small {
+    font-size: 14px;
+    display: block;
+    padding-top: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+#footer_v8 .powerdby .cardealer a {
+    text-decoration: none;
+    position: relative;
+}
+
+#footer_v8 .privacy_link {
+    font-size: 10px;
+    vertical-align: top;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+@media only screen and (min-width:767px) {
+    #footer_v8 .privacy_link {
+        width: 60%;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width:1023px) {
+    #footer_v8 .privacy_link {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    #footer_v8 .privacy_link {
+        width: 80%;
+    }
+}
+
+#footer_v8 .privacy_link h4 {
+    vertical-align: middle;
+    padding-bottom: 15px;
+}
+
+#footer_v8 .privacy_link p {
+    line-height: 15px;
+    font-size: 10px;
+    text-align: left;
+}
+
+#footer_v8 .cardealer {
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+    float: right;
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media only screen and (min-width:767px) {
+    #footer_v8 .cardealer {
+        width: 40%;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width:1023px) {
+    #footer_v8 .cardealer {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    #footer_v8 .cardealer {
+        width: 20%;
+    }
+}
+
+/********* Footer Social Icons *********/
+
+#footer_v8 .ft-social-icon {
+    float: left;
+    padding-top: 0px;
+    position: relative;
+    transition: all .5s ease-in-out;
+    list-style: none;
+}
+
+#footer_v8 .ft-social-icon li {
+    display: inline-block;
+    padding: 0 5px;
+    font-family: 'poppinsbold';
+}
+
+#footer_v8 .ft-social-icon li:first-child {
+    padding-top: 2px;
+    line-height: 50px;
+    padding-bottom: 0px;
+    font-size: 14px;
+}
+
+#footer_v8 .ft-social-icon li a {
+    font-size: 140%;
+    border-radius: 0;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    padding: 6px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+@media only screen and (max-width:599px) {
+    #footer_v8 .ft-social-icon li:first-child {
+        display: none;
+    }
+}
+
+#footer_v8 .text {
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 0;
+}
+
+#footer_v8 .text span {
+    text-align: justify;
+    max-width: 110px;
+    display: inline-block;
+}
+
+#footer_v8 .text .custom-form-control.bg-transparent {
+    padding-bottom: 0;
+    min-height: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+#footer_v8 .custom-form-group {
+    display: block;
+}
+
+#footer_v8 .ft-collom address {
+    text-align: left;
+    line-height: 26px;
+}
+
+#footer_v8 .quick-links-group {
+    font-size: 14px;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    display: inline-block;
+}
+
+#footer_v8 .ft-collom address {
+    font-style: normal;
+    font-size: 14px;
+    vertical-align: top;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+#footer_v8 .ft-collom address a {
+    text-decoration: none;
+    display: block;
+}
+
+#footer_v8 .ft-collom address a .fa {
+    font-size: 16px;
+    padding-right: 8px;
+    width: 20px;
+}
+
+#footer_v8 .ft-collom address a .fa.fa-mobile {
+    font-size: 22px;
+}
+
+#footer_v8 .toplinks-info {
+    list-style: none;
+    margin: 15px 0 0;
+    padding: 0;
+}
+
+#footer_v8 .ft-collom,
+#footer_v8 .ft-collom img {
+    width: 100%;
+}
+
+#footer_v8 .ft-collom {
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+#footer_v8 .footermain .ft-social-icon {
+    margin-top: 0px;
+    text-align: left;
+}
+
+#footer_v8 .address_logo {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    padding-bottom: 20px;
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+#footer_v8 .address_logo li img {
+    max-width: 100%;
+}
+
+#footer_v8 .address_logo li {
+    display: inline-block;
+    max-width: 220px;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+#footer_v8 .address_logo li:last-child {
+    vertical-align: bottom;
+}
+
+#footer_v8 .footer_form {
+    position: relative;
+}
+
+#footer_v8 .footer_form .input-group {
+    width: 100%;
+    vertical-align: middle;
+}
+
+@media only screen and (min-width:767px) {
+    #footer_v8 .footer_form .input-group {
+        width: 24.8%;
+    }
+}
+
+#footer_v8 .footer_form .ftmessage_textarea {
+    width: 100%;
+    position: relative;
+}
+
+@media only screen and (min-width:767px) {
+    #footer_v8 .footer_form .ftmessage_textarea {
+        width: 49%;
+    }
+}
+
+#footer_v8 .submit_icon {
+    height: 37px;
+    width: 37px;
+    position: absolute;
+    right: 15px;
+    padding: 0;
+    top: 18px;
+    text-align: center;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#footer_v8 .address_float {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#footer_v8 .ft-collom address:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+#footer_v8 .custom-form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    min-height: 55px;
+    background-color: transparent;
+    background-image: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 6px 15px 6px 0;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    outline: 0;
+}
+
+#footer_v8 .custom-form-control.textarea {
+    max-width: 100%;
+}
+
+#footer_v8 input {
+    vertical-align: middle;
+}
+
+#footer_v8 .no-padding {
+    margin-left: -15px;
+    margin-right: -15px;
+    display: block;
+}
+
+#footer_v8 .input-group {
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#footer_v8 .input-group {
+    width: 49.7%;
+    display: inline-block;
+}
+
+#footer_v8 .custom-form-control.bg-transparent {
+    background-color: transparent;
+    /*border:none;*/
+    padding-left: 0;
+    max-width: 85%;
+}
+
+#footer_v8 .oval {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 0;
+    padding: 3px;
+    bottom: 0;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    -webkit-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    transition: all .4s linear;
+    border-radius: 5px
+}
+
+#footer_v8 .address2 {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-bottom: 42px;
+}
+
+#footer_v8 .address2.timing-hours {
+    margin-bottom: 40px;
+}
+
+#footer_v8 .time-list {
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+#footer_v8 .time-list li {
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-size: 14px;
+    display: table;
+    table-layout: auto;
+    width: 100%;
+    padding: 0 8px;
+    margin: 4px 0;
+}
+
+/*#footer_v8 .time-list li.active{margin:4px 0; padding: 6px; }*/
+
+#footer_v8 .time-list li strong {
+    font-weight: 400;
+    margin-right: 20px;
+    max-width: inherit;
+}
+
+#footer_v8 .time-list li span {
+    text-align: right;
+    display: table-cell;
+    max-width: inherit;
+}
+
+#footer_v8 .privacy_link h4 {
+    font-weight: 400
+}
+
+#footer_v8 .address2 {
+    font-weight: 700;
+}
+
+#footer_v8 .direction-form {
+    margin-top: 30px;
+    float: none
+}
+
+#footer_v8 .direction-form form {
+    position: relative;
+}
+
+#footer_v8 .direction-form label {
+    color: #fff;
+    font-family: poppinsregular;
+    font-weight: bold;
+    font-size: 16px;
+}

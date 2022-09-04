@@ -1,0 +1,218 @@
+#welcome_text_v3 {
+    display: block;
+}
+
+#welcome_text_v3 .about_main {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    vertical-align: top;
+}
+
+#welcome_text_v3 .about_main .logo_title_about {
+    text-align: center;
+    position: relative;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+#welcome_text_v3 .prestige_flex {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+#welcome_text_v3 .prestige_info {
+    width: 74%;
+    text-align: left;
+    position: relative;
+    padding: 50px;
+    margin-right: 10px;
+    display: table-cell;
+}
+
+#welcome_text_v3 .featured-title h1 {
+    margin: 20px 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: poppinsbold;
+    font-size: 28px;
+    font-weight: 400;
+    position: relative;
+}
+
+#welcome_text_v3 .featured-title h1:after {
+    width: 125px;
+    height: 8px;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+    margin: 0 auto;
+}
+
+#welcome_text_v3 .about_main .featured-title {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+#welcome_text_v3 .about_main .featured-title h1 {
+    text-align: left;
+    font-size: 28px;
+    font-family: poppinsbold;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+
+#welcome_text_v3 .about_main .featured-title h1:after {
+    right: auto;
+}
+
+#welcome_text_v3 .about_main .text_content {
+    text-align: left;
+    max-width: 100%;
+    position: relative;
+}
+
+#welcome_text_v3 .about_main .text_content p {
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 15px;
+}
+
+#welcome_text_v3 .right_aside {
+    width: 25%;
+    vertical-align: top;
+    display: table-cell;
+}
+
+#welcome_text_v3 .vehicle_info_display {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 420px;
+}
+
+#welcome_text_v3 .open_time {
+    position: relative;
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 64px;
+}
+
+#welcome_text_v3 .open_time h2 {
+    font-family: poppinslight;
+    font-size: 36px;
+}
+
+#welcome_text_v3 .open_time span {
+    font-size: 22px;
+    font-family: poppinssemibold;
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+#welcome_text_v3 .current_opning {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 60px;
+}
+
+#welcome_text_v3 .current_opning p {
+    font-size: 16px;
+    font-family: poppinsregular;
+}
+
+#welcome_text_v3 .current_opning:after {
+    content: '';
+    width: 74px;
+    height: 4px;
+    display: inline-block;
+    text-align: center;
+    margin: -10px auto;
+}
+
+#welcome_text_v3 .instock_display {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 20px;
+}
+
+#welcome_text_v3 .instock_display h2 {
+    font-size: 72px;
+    font-family: poppinsextrabold;
+    margin-bottom: 10px;
+    height: 80px;
+}
+
+#welcome_text_v3 .instock_display p {
+    font-size: 12px;
+    font-family: poppinsregular;
+    letter-spacing: 2px;
+}
+
+#welcome_text_v3 .calback_list_gp {
+    text-align: center;
+    display: table;
+    height: 150px;
+    width: 100%;
+}
+
+#welcome_text_v3 .calback_list_gp li {
+    width: 1%;
+    padding: 10px 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#welcome_text_v3 .calback_list_gp li a {
+    text-decoration: none;
+    font-family: poppinsregular;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+}
+
+#welcome_text_v3 .calback_list_gp li a p {
+    margin-top: 10px;
+}
+
+:root #welcome_text_v3 .current_opning {
+    padding-bottom: 20px;
+}
+
+#welcome_text_v3 .about_main .logo_title_about img {
+    max-width: 280px
+}
+
+@media {
+    #welcome_text_v3 .current_opning {
+        padding-bottom: 20px;
+    }
+}
+
+@media {
+    #welcome_text_v3 .current_opning {
+        padding-bottom: 20px;
+    }
+}
+
+#welcome_text_v3 .text_content {
+    text-align: center;
+}
